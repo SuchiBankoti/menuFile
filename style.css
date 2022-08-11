@@ -1,0 +1,100 @@
+body {
+    margin: 100px;
+    background-color: hsl(210, 36%, 96%);
+}
+
+#menu {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 100px;
+    background-color: transparent;
+}
+
+.contents {
+    border: 2px solid transparent;
+    display: flex;
+
+}
+
+img {
+    border: 5px solid #c59d5f;
+    width: 200px;
+
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+#name-price {
+    display: flex;
+    font-size: larger;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.name {
+    font-weight: bolder;
+    font-size: larger;
+    letter-spacing: 2px;
+    color: #222;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+button {
+    padding: 5px;
+    background-color: transparent;
+    border: 2px solid #c59d5f;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: medium;
+    letter-spacing: 2px;
+    color: #c59d5f;
+    box-shadow: 2px 2px #222;
+    ;
+
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 5px;
+    color: hsl(209, 61%, 16%);
+    margin-bottom: 0;
+    font-family: sans-serif;
+}
+
+.underline {
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 5px;
+    background: #c59d5f;
+}
+
+.price {
+    font-weight: bolder;
+    color: #c59d5f;
+    letter-spacing: 2px;
+}
+
+.text {
+    margin: auto;
+    border-top: 1px dotted black;
+    font-size: large;
+    color: grey;
+    padding-top: 20px;
+}
